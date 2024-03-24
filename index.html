@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmet Yeşeriroğlu</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <!-- Make the header logo clickable -->
+            <h1>Blog Siteme Hoşgeldiniz !</h1>
+        </a>
+        <nav>
+            <a href="../index.html">Anasayfa</a>
+            <a href="page2.html">Page 2</a>
+            <a href="page3.html">Page 3</a>
+            <a href="page4.html">Page 4</a>
+            <a href="page5.html">Page 5</a>
+            <a href="page6.html">Page 6</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Ahmet Yeşeriroğlu</h2>
+            <p>
+                <img src="../members/ahmet-yeserir.jpg" alt="Ahmet Yeşeriroğlu" class="profile-image" />
+                <strong>Profesyonel Bilgiler:</strong>
+                <br>
+                Ahmet Yeseri
+                <br>
+                Senior Software Engineer
+                <br>
+                Istanbul, Turkey
+            </p>
+            <p>
+                <strong>Sosyal Profil:</strong>
+                <br>
+                LinkedIn: <a href="https://www.linkedin.com/in/ahmetyeserir/" target="_blank">LinkedIn Profile</a>
+            </p>
+            <p>
+                <strong>Contact:</strong>
+                <br>
+                Email: ahmetyeserir@example.com
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Copyright &copy; 2023. All rights reserved.
+        </p>
+    </footer>
+    <script>
+        document.querySelector("header a").addEventListener("click", function (event) {
+            // Prevent the default behavior (page reloading)
+            event.preventDefault();
+
+            // Change the location to index.html
+            window.location.href = "../index.html";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <a href="page1.html">Page 1</a>
+            <a href="page2.html">Page 2</a>
+            <a href="page3.html">Page 3</a>
+            <a href="page4.html">Page 4</a>
+            <a href="page5.html">Page 5</a>
+            <a href="page6.html">Page 6</a>
+        </nav>
+    </header>
+<main>
+    <section>
+        <h2>Team Member</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <img src="../members/member0.jpg" alt="Team Member 0 Image" />
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <p>
+            <strong>Email:</strong> <a href="mailto:team0@example.com">team0@example.com</a>
+        </p>
+        <p>
+            <strong>Social Profiles:</strong>
+            <br>
+            <a href="https://www.twitter.com/team0" target="_blank">Twitter</a>
+            <a href="https://www.linkedin.com/in/team0" target="_blank">LinkedIn</a>
+            <a href="https://www.github.com/team0" target="_blank">GitHub</a>
+        </p>
+    </section>
+    <script>
+        // Add event listeners to header logos
+        document.querySelectorAll("header a").forEach(function (item) {
+            item.addEventListener("click", function (event) {
+                event.preventDefault();
+                window.location.href = "../index.html";
+            });
+        });
+    </script>
+</main>

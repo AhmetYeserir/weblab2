@@ -1,0 +1,59 @@
+/* Reset some basic styles for the elements */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the main content */
+main {
+    padding: 1rem;
+    background-color: #f5f5f5;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+section h2 {
+    margin: 1rem 0;
+}
+
+/* Style the footer */
+footer {
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+}
